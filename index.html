@@ -1,0 +1,42 @@
+<!--
+Team NgoPancakesAllowed
+Samantha Ngo and Carol Pan
+SoftDev2 pd7
+K14 - You Are Smarter Than the President*
+2018-03-26
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+	  <meta charset="UTF-8"/>
+    <title>Budget Time!</title>
+    <style>
+      .chart div{
+        font: 14px sans-serif;
+        background-color: navy;
+        text-align: right;
+        padding: 5px;
+        margin: 3px;
+        color: white;
+      }
+    </style>
+
+    <script src="http://d3js.org/d3.v3.min.js"
+            charset="utf-8"></script>
+  </head>
+  
+  <body>
+    <h2> Compare the Budget in Fiscal Years 2017 and 2009! </h2>
+    <h3 id="header2017"> FY2017 Spending By Program </h3>
+    <div class="chart" id="FY2017">
+    </div>
+
+    <h3 id="header2009"> FY2009 Spending By Program </h3>
+    <div class="chart" id="FY2009">
+    </div>
+  </body>
+
+  <script src="chart.js"></script>
+</html>
